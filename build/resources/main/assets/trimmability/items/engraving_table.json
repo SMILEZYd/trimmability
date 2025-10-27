@@ -1,0 +1,9 @@
+//assets/trimmability/items/engraving_table.json
+
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "trimmability:block/engraving_table"
+  }
+}
+

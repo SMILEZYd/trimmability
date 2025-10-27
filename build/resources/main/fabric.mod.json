@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "trimmability",
+	"version": "1.0.0",
+	"name": "Trimmability",
+	"description": "Converts armor trims to an NBT string, allowing players to make their own trims with the Engraving Table",
+	"authors": [
+		"SMILEZYd",
+        "TbColtCat56"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/trimmability/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.smilezyd.trimmability.Trimmability"
+		],
+		"client": [
+			"com.smilezyd.trimmability.TrimmabilityClient"
+		]
+	},
+	"mixins": [
+		"trimmability.mixins.json",
+		{
+			"config": "trimmability.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

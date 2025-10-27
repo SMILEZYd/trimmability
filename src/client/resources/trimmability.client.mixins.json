@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "com.smilezyd.trimmability.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ExampleClientMixin",
+        "SlotAccessor"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

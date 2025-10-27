@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "com/smilezyd/trimmability/mixin/client/ExampleClientMixin": {
+      "run": "Lnet/minecraft/class_310;method_1514()V"
+    },
+    "com/smilezyd/trimmability/mixin/client/SlotAccessor": {
+      "x": "field_7873:I",
+      "y": "field_7872:I"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/smilezyd/trimmability/mixin/client/ExampleClientMixin": {
+        "run": "Lnet/minecraft/class_310;method_1514()V"
+      },
+      "com/smilezyd/trimmability/mixin/client/SlotAccessor": {
+        "x": "field_7873:I",
+        "y": "field_7872:I"
+      }
+    }
+  }
+}

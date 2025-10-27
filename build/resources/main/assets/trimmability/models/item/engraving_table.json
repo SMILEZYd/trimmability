@@ -1,0 +1,5 @@
+//assets/trimmability/models/item/engraving_table.json
+
+{
+    "parent": "trimmability:block/engraving_table"
+}
