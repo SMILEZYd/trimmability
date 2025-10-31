@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "trimmability",
-	"version": "1.0.0",
+	"version": "0.1.1",
 	"name": "Trimmability",
 	"description": "Converts armor trims to an NBT string, allowing players to make their own trims with the Engraving Table",
 	"authors": [

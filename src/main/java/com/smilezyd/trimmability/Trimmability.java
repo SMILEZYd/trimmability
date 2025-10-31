@@ -1,9 +1,11 @@
 package com.smilezyd.trimmability;
 
 import com.smilezyd.trimmability.block.entity.ModBlockEntities;
+import com.smilezyd.trimmability.item.ModItems;
 import com.smilezyd.trimmability.util.networking.ModServerNetworking;
 import com.smilezyd.trimmability.util.networking.RepositionSlots;
 import com.smilezyd.trimmability.util.screenhandlers.ModScreenHandlers;
+import com.smilezyd.trimmability.util.ModComponents;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.networking.v1.PayloadTypeRegistry;
@@ -29,6 +31,8 @@ public class Trimmability implements ModInitializer {
         ModBlocks.registerModBlocks();
         ModBlockEntities.registerBlockEntities();
         ModScreenHandlers.registerScreenHandlers();
+        ModComponents.registerModComponents();
+        ModItems.registerModItems();
 
 	}
 }
